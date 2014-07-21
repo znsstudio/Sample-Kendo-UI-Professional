@@ -4,12 +4,19 @@
         defaultChartTheme = "silver",
         app = global.app = global.app || {};
 
-    app.chartsTheme = defaultChartTheme;
-    application = new kendo.mobile.Application(document.body, { transition: "", layout: "mobile-tabstrip"});
-
+    document.addEventListener("DOMContentLoaded", function() {
+    }, false);
+    
     document.addEventListener("deviceready", function () {
         navigator.splashscreen.hide();
+        if (typeof kendo !== "undefined" ) {
+            application = new kendo.mobile.Application(document.body, { transition: "", layout: "mobile-tabstrip"});
+        } else {
+            document.body.innerHTML = "To run this sample, install Kendo UI Professional manually. For more information, see the sample readme.";
+        }
     }, false);
+    
+    app.chartsTheme = defaultChartTheme;
 
     //Skin change function is for the demo. On real project only one theme should be chosen.
     app.changeSkin = function (e) {
@@ -17,8 +24,7 @@
             e.sender.element.text("Native");
             global.app.chartsTheme = "flat";
             mobileSkin = "flat";
-        }
-        else {
+        } else {
             e.sender.element.text("Flat");
             global.app.chartsTheme = defaultChartTheme;
             mobileSkin = "";
