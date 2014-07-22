@@ -1,3 +1,8 @@
+.note {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 1em;
+}
 .km-view .k-qrcode > svg {
     margin: 1em auto;
 }
