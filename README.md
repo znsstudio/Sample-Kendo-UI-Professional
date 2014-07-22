@@ -125,4 +125,4 @@ This sample is licensed under the Apache License, Version 2.0. For more informat
 [License]: License.md
 [Kendo UI web page]: http://www.telerik.com/kendo-ui
 [Kendo UI API Reference]: http://docs.telerik.com/kendo-ui/api/introduction
-[Running Apps on Devices]: http://docs.telerik.com/platform/appbuilder/testing-your-app/run-your-app
+[[Running Your App]: http://docs.telerik.com/platform/appbuilder/testing-your-app/run-your-app
