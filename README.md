@@ -29,7 +29,7 @@ You can clone this sample in Telerik AppBuilder, explore and modify the code, an
 
 ### Clone the sample app in the AppBuilder in-browser client
 
-1. In your browser, verify that you are logged in the {{site.tp}} and you have switched to the account in which you want to develop your application.
+1. In your browser, verify that you are logged in the Telerik Platform and you have switched to the account in which you want to develop your application.
 1. In the account dashboard, click the workspace in which you want to develop your application.
 1. Click **Create project**.
 1. Select **AppBuilder Hybrid project**.
@@ -42,7 +42,7 @@ You can clone this sample in Telerik AppBuilder, explore and modify the code, an
 
 ### Clone a sample app in the AppBuilder Windows client
 
-1. Verify that the {{site.ab-win}} is running and you are logged in the {{site.tp}} in the account in which you want to develop your application.
+1. Verify that the AppBuilder Windows client is running and you are logged in the Telerik Platform in the account in which you want to develop your application.
 1. In the dashboard, click **Samples** and select **Hybrid**.
 1. From the **Workspace** drop-down menu, select the workspace in which you want to develop your application.
 1. Select **Demo Applications**.
@@ -53,12 +53,12 @@ You can clone this sample in Telerik AppBuilder, explore and modify the code, an
 ### Clone a sample app in the AppBuilder extension for Visual Studio
 
 1. From the GitHub repository for the sample app, download the repository as a `ZIP` archive and extract the archive on your local disk.
-1. In {{site.ms-vs}}, create a new project from the *{{site.blank-js}}* template.
+1. In Microsoft Visual Studio, create a new project from the *Blank (JavaScript)* template.
 1. In the **Solution Explorer**, select the `css`, `img`, `js`, and `App_Resources` folders, and the `index.html` file.
 1. Press `Delete` and confirm that you want to delete the selected files and folders.
 1. In Windows Explorer, go to the folder where you extracted the sample app and navigate to the subfolder that contains `index.html`.
 1. Select all files and folders except `*.proj` and `cordova.*.js`.
-1. Drag the selection to the **Solution Explorer** in {{site.ms-vs}} and drop it on your project node.
+1. Drag the selection to the **Solution Explorer** in Microsoft Visual Studio and drop it on your project node.
 1. If prompted, confirm that you want to replace the existing files.
 
 ### Clone a sample app in the AppBuilder command-line interface
@@ -74,7 +74,7 @@ You can clone this sample in Telerik AppBuilder, explore and modify the code, an
 	$ appbuilder sample clone telerik-appfeedback
 	```
 
-The {{site.ab-cli}} shows the following message: `Successfully initialized project in the folder!`
+The AppBuilder command-line interface shows the following message: `Successfully initialized project in the folder!`
 
 ## Running the Sample
 
@@ -125,4 +125,4 @@ This sample is licensed under the Apache License, Version 2.0. For more informat
 [License]: License.md
 [Kendo UI web page]: http://www.telerik.com/kendo-ui
 [Kendo UI API Reference]: http://docs.telerik.com/kendo-ui/api/introduction
-[[Running Your App]: http://docs.telerik.com/platform/appbuilder/testing-your-app/run-your-app
+[Running Your App]: http://docs.telerik.com/platform/appbuilder/testing-your-app/run-your-app
