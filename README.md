@@ -59,14 +59,14 @@ You can clone this sample in Telerik AppBuilder, explore and modify the code, an
 
 ### Clone a sample app in the AppBuilder extension for Visual Studio
 
-1. From the GitHub repository for the sample app, download the repository as a `ZIP` archive and extract the archive on your local disk.
-1. In Microsoft Visual Studio, create a new project from the *Blank (JavaScript)* template.
-1. In the **Solution Explorer**, select the `css`, `img`, `js`, and `App_Resources` folders, and the `index.html` file.
-1. Press `Delete` and confirm that you want to delete the selected files and folders.
-1. In Windows Explorer, go to the folder where you extracted the sample app and navigate to the subfolder that contains `index.html`.
-1. Select all files and folders except `*.proj` and `cordova.*.js`.
-1. Drag the selection to the **Solution Explorer** in Microsoft Visual Studio and drop it on your project node.
-1. If prompted, confirm that you want to replace the existing files.
+1. Select **AppBuilder** &#8594; **Get Sample**.
+1. Select **Hybrid**.
+1. Select **Demos**.
+1. Select **Kendo Ui Core Professional**.
+1. (Optional) Rename the project.
+1. Click **Get**.
+
+The extension for Visual Studio copies the sample files locally. The extension creates a new solution and project and loads them.
 
 ### Clone a sample app in the AppBuilder command-line interface
 
