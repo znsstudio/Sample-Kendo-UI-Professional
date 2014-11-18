@@ -1,5 +1,6 @@
 Kendo UI Professional Mobile App with Data Visualization<br/>(formerly the Kendo UI DataViz app template)
 ===========================================
+<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-kendo-ui-professional" target="_blank"><img src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>
 
 This sample (formerly the Kendo UI DataViz app template) shows how to use Telerik AppBuilder and the mobile and data visualization widgets of Kendo UI Professional to develop a hybrid mobile app with rich HTML5-based data visualization. The app provides a pie chart, a stock chart, a gauge and a QR code generator.
 
