@@ -1,20 +1,6 @@
----
-title: Kendo UI Professional Mobile App with Data Visualization
-slug: demo-kendo-ui-professional
-position: 5
-publish: true
-page_title: Kendo UI Data Visualization Sample | Telerik Platform
-description: 
-tags: Kendo UI, Kendo UI Professional, Kendo UI DataViz, data visualization, demo, DataSource, RadialGauge, Chart, QRCode, StockChart, iOS, Android, Windows Phone, Apache Cordova, hybrid development, JavaScript
----
-
 Kendo UI Professional Mobile App with Data Visualization
 ===
 <a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-kendo-ui-professional" target="_blank"><img src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a> <a href="https://github.com/Icenium/sample-kendo-ui-professional" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
-
-* [Overview](#overview)
-* [Screenshots](#screenshots)
-* [Limitations](#limitations)
 
 ## Overview
 
@@ -25,6 +11,10 @@ This demo app is a hybrid mobile app with rich HTML5-based data visualization, d
 > *Supported mobile platforms:* iOS, Android, Windows Phone
 >
 > *Developed with:* Apache Cordova 3.7.0
+
+### Limitations
+
+This demo app does not include Kendo UI Professional. You need to manually include it in your project. For more information, see the **Configure the sample app** section for your AppBuilder client below.
 
 ### Showcased APIs
 
@@ -52,31 +42,134 @@ This sample shows you how to use the following Apache Cordova core plugin.
 * `scripts\qr-code.js`: Contains the implementation of the QR code generator.
 * `scripts\stock-chart.js`: Contains the implementation of the stock chart.
 
-## Screenshots
+### Screenshots
 
 Skin | Pie Chart | Radial Gauge | QR Code | Stock Chart
 --- | --- | --- | --- | ---
 Native | ![](screenshots/ios_native_pie_chart.jpg) | ![](screenshots/ios_native_radial_gauge.jpg) | ![](screenshots/ios_native_qr_code.jpg) | ![](screenshots/ios_native_stock_chart.jpg)
 Flat | ![](screenshots/ios_flat_pie_chart.jpg) | ![](screenshots/ios_flat_radial_gauge.jpg) | ![](screenshots/ios_flat_qr_code.jpg) | ![](screenshots/ios_flat_stock_chart.jpg)
 
-## Requirements
+## In-Browser
 
-## Configuration
+With the AppBuilder in-browser client, you can develop hybrid and NativeScript cross-platform mobile apps from your browser. You can use the in-browser client at [https://platform.telerik.com](https://platform.telerik.com).
 
-## Build/Run the Sample
+### Clone the sample
 
-## Limitations
+1. Click **Try in AppBuilder** above.
+1. Provide your login credentials, if prompted.
 
-* This demo app does not include Kendo UI Professional. You need to manually include it in your project.
+### Configure the sample for running
 
-## License
+1. In the **Project Navigator**, right-click the project node and select **Manage Packages**.
+1. In the **Kendo UI** tab, select a **Kendo UI Professional** package and click **Install*.
+1. Confirm and wait for the operation to complete.
+1. Click **Close**.
 
-[Running the Sample]: #running-the-sample
-[Telerik AppBuilder web page]: http://www.telerik.com/appbuilder
-[License]: License.md
-[Kendo UI web page]: http://www.telerik.com/kendo-ui
+### Run the sample
+
+1. [Run in the device simulator.][device simulator]
+1. [Run in the companion app.][companion]
+1. [Deploy on device via QR code.][QR code]
+
+## Windows
+
+With the AppBuilder Windows client, you can develop hybrid and NativeScript cross-platform mobile apps from your Windows desktop. You can download and install the Windows client from [http://www.telerik.com/appbuilder/windows-client](http://www.telerik.com/appbuilder/windows-client).
+
+### Clone the sample
+
+1. Verify that the AppBuilder Windows client is running and you are logged in the Telerik Platform in the account in which you want to develop your application.
+1. In the dashboard, click **Samples** and select **Hybrid**.
+1. From the **Workspace** drop-down menu, select the workspace in which you want to develop your application.
+1. Select **Demos**.
+1. Select **Kendo Ui Professional**.
+1. (Optional) Rename the project.
+1. Click **Clone**.
+
+### Configure the sample for running
+
+1. In the **Project Navigator**, right-click the project node and select **Manage Packages**.
+1. In the **Kendo UI** tab, select a **Kendo UI Professional** package and click **Install*.
+1. Confirm and wait for the operation to complete.
+1. Click **Close**.
+
+### Run the sample
+
+With the AppBuilder Windows client, you can quickly test your apps on device, in the simulator or in the native emulators.
+
+1. [Run in the device simulator.][device simulator]
+1. [Run in the companion app.][companion]
+1. [Run in the native emulators.][emulators]
+1. [Deploy on device via QR code.][QR code]
+1. [Deploy via cable connection.][USB deploy]
+
+## Visual Studio
+
+With the AppBuilder extension for Visual Studio, you can develop hybrid and NativeScript cross-platform mobile apps from Microsoft Visual Studio. You can download and install the extension from [http://www.telerik.com/appbuilder/visual-studio-extension](http://www.telerik.com/appbuilder/visual-studio-extension).
+
+### Clone the sample
+
+1. Verify that the AppBuilder extension for Visual Studio is running and you are logged in the Telerik Platform in the account in which you want to develop your application.
+1. Select **AppBuilder** &#8594; **Get Sample**.
+1. Select **Hybrid**.
+1. Select **Demos**.
+1. Select **Kendo Ui Core Professional**.
+1. (Optional) Rename the project.
+1. Click **Get**.
+
+### Configure the sample for running
+
+1. In the **Solution Explorer**, right-click the project node and select **Manage Packages**.
+1. In the **Kendo UI** tab, select a **Kendo UI Professional** package and click **Install*.
+1. Confirm and wait for the operation to complete.
+1. Click **Close**.
+
+### Run the sample
+
+With the AppBuilder Windows client, you can quickly test your apps on device, in the simulator or in the native emulators.
+
+1. [Run in the device simulator.][device simulator]
+1. [Run in the companion app.][companion]
+1. [Run in the native emulators.][emulators]
+1. [Deploy on device via QR code.][QR code]
+1. [Deploy via cable connection.][USB deploy]
+
+## CLI
+
+With the AppBuilder command-line interface, you can develop hybrid and NativeScript cross-platform mobile apps from the command line. You can learn how to add the AppBuilder commands to your command line from [http://www.telerik.com/appbuilder/command-line-interface](http://www.telerik.com/appbuilder/command-line-interface).
+
+### Clone the sample
+
+1. Verify that a command prompt is running and you are logged in the Telerik Platform in the account in which you want to develop your application.
+1. To list the available samples, run the following command.
+
+	```bash
+	appbuilder sample
+	```
+1. Run the clone command for the sample as listed by `appbuilder sample`.
+	
+	```bash
+	appbuilder sample clone kendo-ui-professional
+	```
+
+The AppBuilder command-line interface shows the following message: `Successfully initialized project in the folder!`
+
+### Configure the sample for running
+
+1. In the command line, navigate to your project.
+1. Run the following command.
+
+	```bash
+	appbuilder update-kendoui
+	```
+1. Type the ID of the Kendo UI Professional package that you want to install and press `Enter`.
+1. Confirm and wait for the operation to complete.
+
+[device simulator]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-apps-in-simulator/launch-simulator
+[companion]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/run-companion/using-appbuilder-companion-app
+[QR code]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/deploy-remote
+[USB deploy]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/running-on-connected-devices/deploy-connected
+[emulators]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-in-emulators/native-emulators
 [Kendo UI API Reference]: http://docs.telerik.com/kendo-ui/api/introduction
-[Running Your App]: http://docs.telerik.com/platform/appbuilder/testing-your-app/run-your-app
 [Application]: http://docs.telerik.com/kendo-ui/mobile/application
 [RadialGauge]: http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/radialgauge
 [Chart]: http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart
