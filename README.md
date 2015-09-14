@@ -44,10 +44,26 @@ This sample shows you how to use the following Apache Cordova core plugin.
 
 ### Screenshots
 
+#### iOS
+
 Skin | Pie Chart | Radial Gauge | QR Code | Stock Chart
 --- | --- | --- | --- | ---
-Native | ![](screenshots/ios_native_pie_chart.jpg) | ![](screenshots/ios_native_radial_gauge.jpg) | ![](screenshots/ios_native_qr_code.jpg) | ![](screenshots/ios_native_stock_chart.jpg)
-Flat | ![](screenshots/ios_flat_pie_chart.jpg) | ![](screenshots/ios_flat_radial_gauge.jpg) | ![](screenshots/ios_flat_qr_code.jpg) | ![](screenshots/ios_flat_stock_chart.jpg)
+Native | ![](screenshots/ios/native_pie_chart.jpg) | ![](screenshots/ios/native_radial_gauge.jpg) | ![](screenshots/ios/native_qr_code.jpg) | ![](screenshots/ios/native_stock_chart.jpg)
+Flat | ![](screenshots/ios/flat_pie_chart.jpg) | ![](screenshots/ios/flat_radial_gauge.jpg) | ![](screenshots/ios/flat_qr_code.jpg) | ![](screenshots/ios/flat_stock_chart.jpg)
+
+#### Android
+
+Skin | Pie Chart | Radial Gauge | QR Code | Stock Chart
+--- | --- | --- | --- | ---
+Native | ![](screenshots/android/native-pie-chart.png) | ![](screenshots/android/native-gauge.png) | ![](screenshots/android/native-qr-code.png) | ![](screenshots/android/native-stock-chart.png)
+Flat | ![](screenshots/android/flat-pie-chart.png) | ![](screenshots/android/flat-gauge.png) | ![](screenshots/android/flat-qr-code.png) | ![](screenshots/android/flat-stock-chart.png)
+
+#### Windows Phone
+
+Skin | Pie Chart | Radial Gauge | QR Code | Stock Chart
+--- | --- | --- | --- | ---
+Native | ![](screenshots/wp/native-pie-chart.png) | ![](screenshots/wp/native-gauge.png) | ![](screenshots/wp/native-qr-code.png) | ![](screenshots/wp/native-stock-chart.png)
+Flat | ![](screenshots/wp/flat-pie-chart.png) | ![](screenshots/wp/flat-gauge.png) | ![](screenshots/wp/flat-qr-code.png) | ![](screenshots/wp/flat-stock-chart.png)
 
 ## In-Browser
 
