@@ -1,6 +1,5 @@
 title: Kendo UI Professional Mobile App with Data Visualization
 slug: demo-kendo-ui-professional
-position: 5
 publish: true
 page_title: Kendo UI Data Visualization Sample | Telerik Platform
 description: This demo application shows how to use Telerik AppBuilder and the mobile and data visualization widgets of Kendo UI Professional to develop a hybrid mobile app with rich HTML5-based data visualization. The app provides a pie chart, a stock chart, a gauge and a QR code generator.

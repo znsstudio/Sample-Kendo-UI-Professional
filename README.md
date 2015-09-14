@@ -141,7 +141,7 @@ With the AppBuilder extension for Visual Studio, you can develop hybrid and Nati
 
 ### Run the sample
 
-With the AppBuilder Windows client, you can quickly test your apps on device, in the simulator or in the native emulators.
+With the AppBuilder extension for Visual Studio, you can quickly test your apps on device, in the simulator or in the native emulators.
 
 1. [Run in the device simulator.][device simulator]
 1. [Run in the companion app.][companion]
@@ -179,6 +179,16 @@ The AppBuilder command-line interface shows the following message: `Successfully
 	```
 1. Type the ID of the Kendo UI Professional package that you want to install and press `Enter`.
 1. Confirm and wait for the operation to complete.
+
+### Run the sample
+
+With the AppBuilder command-line interface, you can quickly test your apps on device, in the simulator or in the native emulators.
+
+1. [Run in the device simulator.][device simulator]
+1. [Run in the companion app.][companion]
+1. [Run in the native emulators.][emulators]
+1. [Deploy on device via QR code.][QR code]
+1. [Deploy via cable connection.][USB deploy]
 
 [device simulator]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-apps-in-simulator/launch-simulator
 [companion]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/run-companion/using-appbuilder-companion-app
