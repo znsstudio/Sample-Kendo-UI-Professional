@@ -6,15 +6,9 @@ Kendo UI Professional Mobile App with Data Visualization
 
 This demo app is a hybrid mobile app with rich HTML5-based data visualization, developed with Kendo UI Professional. It provides a pie chart, a stock chart, a gauge and a QR code generator.
 
-> *Last updated:* May 29, 2015
-> 
 > *Supported mobile platforms:* iOS, Android, Windows Phone
 >
 > *Developed with:* Apache Cordova 3.7.0
-
-### Limitations
-
-This demo app does not include Kendo UI Professional. You need to manually include it in your project. For more information, see the **Configure the sample app** section for your AppBuilder client below.
 
 ### Showcased APIs
 
@@ -189,6 +183,10 @@ With the AppBuilder command-line interface, you can quickly test your apps on de
 1. [Run in the native emulators.][emulators]
 1. [Deploy on device via QR code.][QR code]
 1. [Deploy via cable connection.][USB deploy]
+
+### Limitations
+
+This demo app does not include Kendo UI Professional. You need to manually include it in your project. For more information, see the **Configure the sample app** section for your AppBuilder client above.
 
 [device simulator]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-apps-in-simulator/launch-simulator
 [companion]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/run-companion/using-appbuilder-companion-app
