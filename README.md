@@ -2,7 +2,15 @@ Kendo UI Professional Mobile App with Data Visualization
 ===
 <a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2FIcenium%2Fsample-kendo-ui-professional" target="_blank"><img src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a> <a href="https://github.com/Icenium/sample-kendo-ui-professional" target="_blank"><img style="padding-left:20px" src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/get-github.png" alt="Get from GitHub" title="Get from GitHub"></a>
 
-## Overview
+<a id="top"></a>
+* [Overview](#overview)
+* [Showcased APIs](#showcased-apis)
+* [Important Directories and Files](#important-directories-and-files)
+* [Screenshots](#screenshots)
+* [Test the Sample](#test-the-sample)
+* [Limitations](#limitations)
+
+# Overview
 
 This demo app is a hybrid mobile app with rich HTML5-based data visualization, developed with Kendo UI Professional. It provides a pie chart, a stock chart, a gauge and a QR code generator.
 
@@ -10,7 +18,9 @@ This demo app is a hybrid mobile app with rich HTML5-based data visualization, d
 >
 > *Developed with:* Apache Cordova 3.7.0
 
-### Showcased APIs
+[Back to Top](#top)
+
+# Showcased APIs
 
 This sample shows you how to use the following widgets and features of Kendo UI Professional.
 
@@ -27,7 +37,9 @@ This sample shows you how to use the following Apache Cordova core plugin.
 
 * **[Splashscreen][Splashscreen]:** The plugin shows or hides the splash screen when the app launches.
 
-### Important Directories and Files
+[Back to Top](#top)
+
+# Important Directories and Files
 
 * `data\boeing-stock.json`: Contains dummy data for the stock chart.
 * `scripts\app.js`: Contains the application initialization and the implementation of switching between the native and the flat UI skins.
@@ -36,28 +48,36 @@ This sample shows you how to use the following Apache Cordova core plugin.
 * `scripts\qr-code.js`: Contains the implementation of the QR code generator.
 * `scripts\stock-chart.js`: Contains the implementation of the stock chart.
 
-### Screenshots
+[Back to Top](#top)
 
-#### iOS
+# Screenshots
 
-Skin | Pie Chart | Radial Gauge | QR Code | Stock Chart
---- | --- | --- | --- | ---
-Native | ![](screenshots/ios/native_pie_chart.jpg) | ![](screenshots/ios/native_radial_gauge.jpg) | ![](screenshots/ios/native_qr_code.jpg) | ![](screenshots/ios/native_stock_chart.jpg)
-Flat | ![](screenshots/ios/flat_pie_chart.jpg) | ![](screenshots/ios/flat_radial_gauge.jpg) | ![](screenshots/ios/flat_qr_code.jpg) | ![](screenshots/ios/flat_stock_chart.jpg)
-
-#### Android
+### iOS
 
 Skin | Pie Chart | Radial Gauge | QR Code | Stock Chart
 --- | --- | --- | --- | ---
-Native | ![](screenshots/android/native-pie-chart.png) | ![](screenshots/android/native-gauge.png) | ![](screenshots/android/native-qr-code.png) | ![](screenshots/android/native-stock-chart.png)
-Flat | ![](screenshots/android/flat-pie-chart.png) | ![](screenshots/android/flat-gauge.png) | ![](screenshots/android/flat-qr-code.png) | ![](screenshots/android/flat-stock-chart.png)
+Native | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/ios/native_pie_chart.jpg) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/ios/native_radial_gauge.jpg) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/ios/native_qr_code.jpg) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/ios/native_stock_chart.jpg)
+Flat | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/ios/flat_pie_chart.jpg) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/ios/flat_radial_gauge.jpg) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/ios/flat_qr_code.jpg) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/ios/flat_stock_chart.jpg)
 
-#### Windows Phone
+### Android
 
 Skin | Pie Chart | Radial Gauge | QR Code | Stock Chart
 --- | --- | --- | --- | ---
-Native | ![](screenshots/wp/native-pie-chart.png) | ![](screenshots/wp/native-gauge.png) | ![](screenshots/wp/native-qr-code.png) | ![](screenshots/wp/native-stock-chart.png)
-Flat | ![](screenshots/wp/flat-pie-chart.png) | ![](screenshots/wp/flat-gauge.png) | ![](screenshots/wp/flat-qr-code.png) | ![](screenshots/wp/flat-stock-chart.png)
+Native | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/android/native-pie-chart.png) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/android/native-gauge.png) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/android/native-qr-code.png) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/android/native-stock-chart.png)
+Flat | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/android/flat-pie-chart.png) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/android/flat-gauge.png) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/android/flat-qr-code.png) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/android/flat-stock-chart.png)
+
+### Windows Phone
+
+Skin | Pie Chart | Radial Gauge | QR Code | Stock Chart
+--- | --- | --- | --- | ---
+Native | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/wp/native-pie-chart.png) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/wp/native-gauge.png) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/wp/native-qr-code.png) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/wp/native-stock-chart.png)
+Flat | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/wp/flat-pie-chart.png) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/wp/flat-gauge.png) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/wp/flat-qr-code.png) | ![](https://github.com/Icenium/sample-kendo-ui-professional/blob/master/screenshots/wp/flat-stock-chart.png)
+
+[Back to Top](#top)
+
+# Test the Sample
+
+Apart from exploring the sample code base in GitHub, you can also clone and run the sample in your preferred AppBuilder client.
 
 ## In-Browser
 
@@ -80,6 +100,8 @@ With the AppBuilder in-browser client, you can develop hybrid and NativeScript c
 1. [Run in the device simulator.][device simulator]
 1. [Run in the companion app.][companion]
 1. [Deploy on device via QR code.][QR code]
+
+[Back to Top](#top)
 
 ## Windows
 
@@ -112,6 +134,8 @@ With the AppBuilder Windows client, you can quickly test your apps on device, in
 1. [Deploy on device via QR code.][QR code]
 1. [Deploy via cable connection.][USB deploy]
 
+[Back to Top](#top)
+
 ## Visual Studio
 
 With the AppBuilder extension for Visual Studio, you can develop hybrid and NativeScript cross-platform mobile apps from Microsoft Visual Studio. You can download and install the extension from [http://www.telerik.com/appbuilder/visual-studio-extension](http://www.telerik.com/appbuilder/visual-studio-extension).
@@ -142,6 +166,8 @@ With the AppBuilder extension for Visual Studio, you can quickly test your apps 
 1. [Run in the native emulators.][emulators]
 1. [Deploy on device via QR code.][QR code]
 1. [Deploy via cable connection.][USB deploy]
+
+[Back to Top](#top)
 
 ## CLI
 
@@ -184,9 +210,13 @@ With the AppBuilder command-line interface, you can quickly test your apps on de
 1. [Deploy on device via QR code.][QR code]
 1. [Deploy via cable connection.][USB deploy]
 
-### Limitations
+[Back to Top](#top)
+
+# Limitations
 
 This demo app does not include Kendo UI Professional. You need to manually include it in your project. For more information, see the **Configure the sample app** section for your AppBuilder client above.
+
+[Back to Top](#top)
 
 [device simulator]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-apps-in-simulator/launch-simulator
 [companion]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/run-companion/using-appbuilder-companion-app
