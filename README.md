@@ -230,4 +230,4 @@ This demo app does not include Kendo UI Professional. You need to manually inclu
 [QRCode]: http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/qrcode
 [StockChart]: http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/stock-chart
 [DataSource]: http://docs.telerik.com/kendo-ui/framework/datasource/overview
-[Splashscreen]: https://github.com/apache/cordova-plugin-splashscreen/blob/master/doc/index.md
+[Splashscreen]: https://www.npmjs.com/package/cordova-plugin-splashscreen
