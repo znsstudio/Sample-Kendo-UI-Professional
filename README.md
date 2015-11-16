@@ -4,7 +4,6 @@ Data Visualization with Kendo UI Professional
 
 <a id="top"></a>
 * [Overview](#overview)
-* [Showcased APIs](#showcased-apis)
 * [Important Directories and Files](#important-directories-and-files)
 * [Screenshots](#screenshots)
 * [Test the Sample](#test-the-sample)
@@ -17,25 +16,6 @@ This demo app is a hybrid mobile app with rich HTML5-based data visualization, d
 > *Supported mobile platforms:* iOS, Android, Windows Phone
 >
 > *Developed with:* Apache Cordova 3.7.0
-
-[Back to Top](#top)
-
-# Showcased APIs
-
-This sample shows you how to use the following widgets and features of Kendo UI Professional.
-
-* **[Application][Application]**: The widget provides the necessary tools for building native-looking web based mobile applications.
-* **[RadialGauge][RadialGauge]**: The widget lets you quickly determine where a value lies in a range. Kendo UI draws the gauge using SVG.
-* **[Chart][Chart]**: The widget draws high quality charts of the following types: bar, column, line, area, bullet, pie, donut, scatter, bubble, radar, and polar. Kendo UI draws the chart using SVG.
-* **[QRCode][QRCode]**: The widget generates canvas or SVG images that represent QR codes. Kendo UI draws the QR code using SVG.
-* **[StockChart][StockChart]**: The widgets lets you visualize stock prices and related graphs. Kendo UI draws the QR code using SVG.
-* **[DataSource][DataSource]:** The DataSource component is an abstraction for using local data (array of JavaScript objects) or remote data (web service returning JSON, JSONP, OData or XML). 
-
-For more information about the Kendo UI Professional widget APIs, see the [Kendo UI API Reference][Kendo UI API Reference]. 
-
-This sample shows you how to use the following Apache Cordova core plugin.
-
-* **[Splashscreen][Splashscreen]:** The plugin shows or hides the splash screen when the app launches.
 
 [Back to Top](#top)
 
@@ -223,11 +203,3 @@ This demo app does not include Kendo UI Professional. You need to manually inclu
 [QR code]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/deploy-remote
 [USB deploy]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-on-devices/running-on-connected-devices/deploy-connected
 [emulators]: http://docs.telerik.com/platform/appbuilder/testing-your-app/running-in-emulators/native-emulators
-[Kendo UI API Reference]: http://docs.telerik.com/kendo-ui/api/introduction
-[Application]: http://docs.telerik.com/kendo-ui/mobile/application
-[RadialGauge]: http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/radialgauge
-[Chart]: http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart
-[QRCode]: http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/qrcode
-[StockChart]: http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/stock-chart
-[DataSource]: http://docs.telerik.com/kendo-ui/framework/datasource/overview
-[Splashscreen]: https://www.npmjs.com/package/cordova-plugin-splashscreen
