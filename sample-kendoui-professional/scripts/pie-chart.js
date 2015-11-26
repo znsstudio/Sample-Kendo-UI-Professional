@@ -21,6 +21,7 @@
             pieChart = $pieChart.kendoChart({
                 theme: global.app.chartsTheme,
                 renderAs: "svg",
+                transitions: false,
                 title: {
                     position: "top",
                     text: "Internet Population Growth, 2007 - 2012"
