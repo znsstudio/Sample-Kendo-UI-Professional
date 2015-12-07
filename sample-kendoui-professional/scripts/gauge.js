@@ -34,6 +34,7 @@
             gauge = $gauge.kendoRadialGauge({
                 theme: global.app.chartsTheme,
                 renderAs: "svg",
+                transitions: false,
                 pointer: {
                     value: value
                 },

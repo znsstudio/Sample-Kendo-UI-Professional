@@ -25,6 +25,7 @@
             $stockChart.kendoStockChart({
                 theme: global.app.chartsTheme,
                 renderAs: "svg",
+                transitions: false,
                 dataSource: {
                     transport: {
                         read: {
