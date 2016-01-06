@@ -69,13 +69,13 @@
         },
 
         bindResizeEvent: function () {
-            //as the dataviz-s are complex elements they need redrow after window resize 
-            //in order to position themselve on the right place and right size
+            //as the dataviz-s are complex elements they need redraw after window resize
+            //in order to position themselves on the right place and right size
             $(window).on("resize.pieChart", $.proxy(app.pieChart.drawPieChart, app.pieChart));
         },
 
         unbindResizeEvent: function () {
-            //unbind the "resize event" to prevent redudntant calculations when the tab is not active
+            //unbind the "resize event" to prevent redundant calculations when the tab is not active
             $(window).off("resize.pieChart");
         }
     };
