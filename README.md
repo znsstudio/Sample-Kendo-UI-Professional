@@ -15,7 +15,7 @@ This demo app is a hybrid mobile app with rich HTML5-based data visualization, d
 
 > *Supported mobile platforms:* iOS, Android, Windows Phone
 >
-> *Developed with:* Windows Phone SDK 8.1, Apache Cordova 3.7.0
+> *Developed with:* Windows Phone SDK 8.1, Apache Cordova 4.0.0
 
 [Back to Top](#top)
 
